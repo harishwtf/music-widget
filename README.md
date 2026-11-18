@@ -3,6 +3,8 @@
 A macOS desktop / Notification Center widget with play, pause, skip and volume controls for
 **Spotify**, **Apple Music** and **YouTube** (playing in Chrome, Safari, Arc, Brave, Edge…).
 
+**Download:** [MusicWidget-1.0.0.pkg](https://github.com/harishwtf/music-widget/releases/latest) (Apple Silicon, macOS 14+). It isn't signed with a Developer ID, so right-click it and choose Open the first time.
+
 It has two parts:
 
 - **MusicWidget.app** – a tiny menu-bar helper. Widgets are sandboxed and can't talk to other
