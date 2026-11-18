@@ -1,0 +1,5 @@
+#!/bin/sh
+# Quit a running copy so the app bundle can be replaced cleanly.
+pkill -x MusicWidget 2>/dev/null || true
+pkill -f MusicWidgetExtension 2>/dev/null || true
+exit 0

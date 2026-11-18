@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>Music Widget</title>
+    <welcome file="welcome.html"/>
+    <conclusion file="conclusion.html"/>
+    <options customize="never" require-scripts="false" hostArchitectures="arm64"/>
+    <domains enable_localSystem="true"/>
+    <volume-check><allowed-os-versions><os-version min="14.0"/></allowed-os-versions></volume-check>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.harish.musicwidget"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.harish.musicwidget" visible="false">
+        <pkg-ref id="com.harish.musicwidget"/>
+    </choice>
+    <pkg-ref id="com.harish.musicwidget" version="VERSION" onConclusion="none">MusicWidget-component.pkg</pkg-ref>
+</installer-gui-script>
